@@ -1,1 +1,1 @@
-print("Hello, It's test program")
+print(Hello, It's test program")
