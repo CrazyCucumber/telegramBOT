@@ -1,15 +1,15 @@
 import telebot
 import psycopg2
 from config import TOKEN
+
 bot = telebot.TeleBot(TOKEN)
 
-
 con = psycopg2.connect(
-  database="mai",
-  user="postgres",
-  password="1324",
-  host="127.0.0.1",
-  port="5432"
+    database="mai",
+    user="postgres",
+    password="1324",
+    host="127.0.0.1",
+    port="5432"
 )
 
 
@@ -32,11 +32,13 @@ def registration(message):
 
     if int(task) < 1 or int(task) > 5:
         bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, неправильный номер задания\nВозможный номер задания от 1 до 5')
+                         f'{message.from_user.first_name}, неправильный номер задания'
+                         f'\nВозможный номер задания от 1 до 5')
 
     if int(variant) < 1 or int(variant) > 5:
         bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, неправильный номер варианта\nВозможный номер задания от 1 до 5')
+                         f'{message.from_user.first_name}, неправильный номер варианта'
+                         f'\nВозможный номер задания от 1 до 5')
 
     if 'github.com/' not in git:
         bot.send_message(message.chat.id,
@@ -48,27 +50,21 @@ def registration(message):
     return all_message
 
 
-def DatabaseEntry(message):
+def database_entry(message):
+    fam = "\'" + registration(message)[0] + "\'"
+    name = "\'" + registration(message)[1] + "\'"
+    otchestvo = "\'" + registration(message)[2] + "\'"
+    grp = "\'" + registration(message)[3] + "\'"
+    git = "\'" + registration(message)[6] + "\'"
+    sql_query_to_entry_student = f"INSERT INTO student (fam,name,otchestvo,grp,task, var, git) VALUES ({fam}, {name}," \
+                                 f" {otchestvo}, {grp}, {registration(message)[4]}, {registration(message)[5]}, {git})"
 
-  #Подготовка SQL запроса
-  fam = "\'" + registration(message)[0] + "\'"
-  name = "\'" + registration(message)[1] + "\'"
-  otchestvo = "\'" + registration(message)[2] + "\'"
-  grp = "\'" + registration(message)[3] + "\'"
-  git = "\'" + registration(message)[6] + "\'"
-  SQLquery_to_entry_student = f"INSERT INTO student (fam,name,otchestvo,grp,task, var, git) VALUES ({fam}, {name}, {otchestvo}," \
-             f" {grp}, {registration(message)[4]}, {registration(message)[5]}, {git})"
+    cur = con.cursor()
+    cur.execute(sql_query_to_entry_student)
+    con.commit()
+    con.close()
 
-
-  cur = con.cursor()
-  cur.execute(SQLquery_to_entry_student)
-  con.commit()
-  con.close()
-
-  return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы записаны в Базу Данных')
-
-
-
+    return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы записаны в Базу Данных')
 
 # from datetime import datetime
 # def transformation_data():
@@ -138,12 +134,12 @@ def DatabaseEntry(message):
 #     return bot.send_message(message.chat.id,
 #                             f'{message.from_user.first_name}, ты записан!')
 #
-  # SQLquery_to_create_database = '''CREATE TABLE student (
-  #            id BIGSERIAL NOT NULL PRIMARY KEY,
-  #            fam VARCHAR(50),
-  #            name VARCHAR(50),
-  #            otchestvo VARCHAR(50),
-  #            grp VARCHAR(50),
-  #            task INT NOT NULL,
-  #            var INT NOT NULL,
-  #            git VARCHAR(200));'''
+# SQLquery_to_create_database = '''CREATE TABLE student (
+#            id BIGSERIAL NOT NULL PRIMARY KEY,
+#            fam VARCHAR(50),
+#            name VARCHAR(50),
+#            otchestvo VARCHAR(50),
+#            grp VARCHAR(50),
+#            task INT NOT NULL,
+#            var INT NOT NULL,
+#            git VARCHAR(200));'''

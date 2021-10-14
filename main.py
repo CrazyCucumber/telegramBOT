@@ -1,6 +1,6 @@
 import telebot
 
-from functions_student import registration, DatabaseEntry
+from functions_student import registration, database_entry
 from functions_teacher import data_check
 
 from config import TOKEN
@@ -31,7 +31,7 @@ def send_text(message):
 
 def student_register(message):
     registration(message)
-    DatabaseEntry(message)
+    database_entry(message)
 
 
 def teacher_next_step(message):
