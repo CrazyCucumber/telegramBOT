@@ -14,7 +14,7 @@ con = psycopg2.connect(
 
 
 def registration(message):
-    lst = message.split(', ')
+    lst = message.text.split(', ')
     if len(lst) != 5:
         bot.send_message(message.chat.id,
                          f'{message.from_user.first_name}, неправильный формат сообщения')

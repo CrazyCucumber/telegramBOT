@@ -22,6 +22,7 @@ def download_rep(message):
         os.mkdir(new_dir)
     os.chdir(new_dir)
     os.system(f'git clone {git}')
-    # os.system('git add .\n'
-    #           'git commit -m "Add files from new rep"\n'
-    #           'git push -f origin main')
+    os.system('git init\n'
+              'git add .\n'
+              'git commit -m "Add files from new rep"\n'
+              'git push -f origin main')
