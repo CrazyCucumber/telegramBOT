@@ -49,23 +49,6 @@ def registration(message):
 
     return all_message
 
-
-def database_entry(message):
-    fam = "\'" + registration(message)[0] + "\'"
-    name = "\'" + registration(message)[1] + "\'"
-    otchestvo = "\'" + registration(message)[2] + "\'"
-    grp = "\'" + registration(message)[3] + "\'"
-    git = "\'" + registration(message)[6] + "\'"
-    sql_query_to_entry_student = f"INSERT INTO student (fam,name,otchestvo,grp,task, var, git) VALUES ({fam}, {name}," \
-                                 f" {otchestvo}, {grp}, {registration(message)[4]}, {registration(message)[5]}, {git})"
-
-    cur = con.cursor()
-    cur.execute(sql_query_to_entry_student)
-    con.commit()
-    con.close()
-
-    return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы записаны в Базу Данных')
-
 # from datetime import datetime
 # def transformation_data():
 #     current_datetime = datetime.now()
@@ -134,12 +117,13 @@ def database_entry(message):
 #     return bot.send_message(message.chat.id,
 #                             f'{message.from_user.first_name}, ты записан!')
 #
-# SQLquery_to_create_database = '''CREATE TABLE student (
-#            id BIGSERIAL NOT NULL PRIMARY KEY,
-#            fam VARCHAR(50),
-#            name VARCHAR(50),
-#            otchestvo VARCHAR(50),
-#            grp VARCHAR(50),
-#            task INT NOT NULL,
-#            var INT NOT NULL,
-#            git VARCHAR(200));'''
+ # SQLquery_to_create_database = '''CREATE TABLE student (
+ #             id BIGSERIAL NOT NULL PRIMARY KEY,
+ #             fam VARCHAR(50),
+ #             name VARCHAR(50),
+ #             patronymic VARCHAR(50),
+ #             grp VARCHAR(50),
+ #             task INT NOT NULL,
+ #             var INT NOT NULL,
+ #             git VARCHAR(200),
+ #             process INT);'''
