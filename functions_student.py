@@ -1,5 +1,8 @@
 import telebot
 import psycopg2
+
+from functions_databse import database_entry
+
 from config import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
@@ -47,7 +50,9 @@ def registration(message):
     name = name.split(' ')
     all_message = name + lst[1:5]
 
-    return all_message
+    database_entry(all_message)
+
+    return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы записаны в Базу Данных')
 
 # from datetime import datetime
 # def transformation_data():

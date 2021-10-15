@@ -2,40 +2,24 @@ import telebot
 import os
 import shutil
 
-from functions_student import registration
-
 from config import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 
 
-def download_rep(message):
-    git_student = registration(message)[6]
+def download_rep(git):
+    git_student = git
     git_teacher = 'https://github.com/CrazyCucumber/unit_test.git'
     global new_dir
     try:
         os.chdir('..')
-        print(os.getcwd())
         dir_now = os.getcwd()
-        print(dir_now)
         new_dir = os.path.join(dir_now, 'NewDirForProgram')
-        print(new_dir)
         os.mkdir(new_dir)
     except FileExistsError:
-        print('Отловил ошибку')
-        shutil.rmtree('./NewDirForProgram')
-        new_dir = os.path.join(dir_now, 'NewDirForProgram')
-        print(new_dir)
-        print(os.getcwd())
+        os.system(f'rd /s /q "{new_dir}"')
         os.mkdir(new_dir)
-    finally:
-        os.chdir(new_dir)
-        print(os.getcwd())
-    # os.chdir('..')
-    # dir_now = os.getcwd()
-    # new_dir = os.path.join(dir_now, 'NewDirForProgram')
-    # os.mkdir(new_dir)
-    # os.chdir(new_dir)
+    os.chdir(new_dir)
 
     os.system(f'git clone {git_teacher}')
     os.system(f'git clone {git_student}')
