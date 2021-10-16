@@ -2,9 +2,9 @@ import telebot
 import os
 import shutil
 
-from config import TOKEN
+from env import bot_token
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(bot_token)
 
 
 def download_rep(git):

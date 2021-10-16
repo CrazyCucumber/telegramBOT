@@ -1,19 +1,11 @@
 import telebot
-import psycopg2
+from loguru import logger
 
 from functions_databse import database_entry
 
-from config import TOKEN
+from env import bot_token
 
-bot = telebot.TeleBot(TOKEN)
-
-con = psycopg2.connect(
-    database="mai",
-    user="postgres",
-    password="1324",
-    host="127.0.0.1",
-    port="5432",
-)
+bot = telebot.TeleBot(bot_token)
 
 
 def registration(message):
@@ -46,6 +38,8 @@ def registration(message):
     if 'github.com/' not in git:
         bot.send_message(message.chat.id,
                          f'{message.from_user.first_name}, некоректная ссылка')
+
+    logger.debug("Validation: ok")
 
     name = name.split(' ')
     all_message = name + lst[1:5]
@@ -122,13 +116,13 @@ def registration(message):
 #     return bot.send_message(message.chat.id,
 #                             f'{message.from_user.first_name}, ты записан!')
 #
- # SQLquery_to_create_database = '''CREATE TABLE student (
- #             id BIGSERIAL NOT NULL PRIMARY KEY,
- #             fam VARCHAR(50),
- #             name VARCHAR(50),
- #             patronymic VARCHAR(50),
- #             grp VARCHAR(50),
- #             task INT NOT NULL,
- #             var INT NOT NULL,
- #             git VARCHAR(200),
- #             process INT);'''
+# SQLquery_to_create_database = '''CREATE TABLE student (
+#             id BIGSERIAL NOT NULL PRIMARY KEY,
+#             fam VARCHAR(50),
+#             name VARCHAR(50),
+#             patronymic VARCHAR(50),
+#             grp VARCHAR(50),
+#             task INT NOT NULL,
+#             var INT NOT NULL,
+#             git VARCHAR(200),
+#             process INT);'''
