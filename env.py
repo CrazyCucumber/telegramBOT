@@ -3,7 +3,10 @@ import os
 import yaml
 from loguru import logger
 
+logger.add("debug.log", format="{time} {level} {message}", level="DEBUG", rotation="10 MB", compression="zip")
 
+
+@logger.catch
 def check_env(envs: list) -> list:
     """
     Loads variables from ENV. If it does not find them in ENV,
@@ -43,6 +46,7 @@ def check_env(envs: list) -> list:
     return normal_env
 
 
-[bot_token, db_name, db_user, db_password, db_host, db_port] = check_env(["BOT_TOKEN", "DB_NAME", "DB_USER",
-                                                                          "DB_PASSWORD", "DB_HOST", "DB_PORT"])
-
+[bot_token, db_name, db_user, db_password, db_host, db_port, teacher_git] = check_env(["BOT_TOKEN", "DB_NAME",
+                                                                                       "DB_USER", "DB_PASSWORD",
+                                                                                       "DB_HOST", "DB_PORT",
+                                                                                       "TEACHER_GIT"])

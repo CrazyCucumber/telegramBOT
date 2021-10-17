@@ -1,0 +1,398 @@
+2021-10-17T06:16:58.243197+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.245206+0300 DEBUG 	success
+2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.245206+0300 DEBUG 	success
+2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.245206+0300 DEBUG 	success
+2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.245206+0300 DEBUG 	success
+2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.245206+0300 DEBUG 	success
+2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.252715+0300 DEBUG 	success
+2021-10-17T06:16:58.253257+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-17T06:16:58.253257+0300 DEBUG 	success
+2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
+2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
+2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
+2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
+2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
+2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
+2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
+2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
+2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
+2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
+2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
+2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
+2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
+2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
+2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
+2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
+2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
+2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
+2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
+2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
+2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
+2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
+2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
+2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
+2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
+2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
+2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
+2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
+2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
+2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
+2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
+2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
+2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
+2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
+2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
+2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
+2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
+2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
+2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
+2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
+2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
+2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
+2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
+2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
+2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
+2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
+2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
+2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
+2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
+2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
+2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
+2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
+2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
+2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
+2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
+2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
+2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
+2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
+2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
+2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
+2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
+2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
+2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
+2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
+2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
+2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
+2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
+2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
+2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
+2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
+2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
+2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
+2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
+2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
+2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
+2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
+2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
+2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
+2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
+2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
+2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
+2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
+2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
+2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
+2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
+2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
+2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
+2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
+2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
+2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
+2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
+2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
+2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
+2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
+2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
+2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
+2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
+2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
+2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
+2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
+2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
+2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
+2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
+2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
+2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
+2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
+2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
+2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
+2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
+2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
+2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
+2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
+2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
+2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
+2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
+2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
+2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
+2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
+2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
+2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
+2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
+2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
+2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
+2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
+2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
+2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
+2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
+2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
+2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
+2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
+2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
+2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
+2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
+2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
+2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
+2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
+2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
+2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
+2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
+2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
+2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
+2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
+2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
+2021-10-17T12:48:07.000714+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.025909+0300 DEBUG 	success
+2021-10-17T12:48:07.026908+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.028906+0300 DEBUG 	success
+2021-10-17T12:48:07.028906+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.031887+0300 DEBUG 	success
+2021-10-17T12:48:07.031887+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.033886+0300 DEBUG 	success
+2021-10-17T12:48:07.034885+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.036883+0300 DEBUG 	success
+2021-10-17T12:48:07.036883+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.038883+0300 DEBUG 	success
+2021-10-17T12:48:07.039882+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-17T12:48:07.041880+0300 DEBUG 	success
+2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
+2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
+2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
+2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
+2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
+2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
+2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
+The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
+2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
+2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
+2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
+2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
+2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
+2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
+2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
+2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
+2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
+2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
+2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
+2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
+2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
+2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
+2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
+2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
+2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
+2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
+2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
+2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
+2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
+2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
+2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
+2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
+2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
+2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
+2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
+2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
+2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
+2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
+2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
+2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
+2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
+2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
+2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
+2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
+2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
+2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
+2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
+2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
+2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
+2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
+2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
+2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
+2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
+2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
+2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
+2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
+2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
+2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
+2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
+2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
+2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked

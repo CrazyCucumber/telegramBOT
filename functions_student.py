@@ -1,20 +1,29 @@
 import telebot
 from loguru import logger
 
-from functions_databse import database_entry
+from functions_databse import database_checking, database_insert, database_update
+from functions_github import download_rep
 
 from env import bot_token
 
 bot = telebot.TeleBot(bot_token)
 
+logger.add("debug.log", format="{time} {level} {message}", level="DEBUG", rotation="10  MB", compression="zip")
 
+
+@logger.catch
 def registration(message):
     lst = message.text.split(', ')
     if len(lst) != 5:
-        bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, неправильный формат сообщения')
+        logger.error("Неправильный формат сообщения")
+        return bot.send_message(message.chat.id,
+                                f'{message.from_user.first_name}, неправильный формат сообщения')
 
-    name = str(lst[0])
+    nam = str(lst[0])
+    nam = nam.split(' ')
+    fam = nam[0]
+    name = nam[1]
+    patronymic = nam[2]
     group = lst[1]
     task = lst[2]
     variant = lst[3]
@@ -22,107 +31,39 @@ def registration(message):
 
     group_lst = ('212Б', '221Б', '214Б')
     if group not in group_lst:
-        bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, неправильно записана группа')
+        logger.error("Неправильно записана группа")
+        return bot.send_message(message.chat.id,
+                                f'{message.from_user.first_name}, неправильно записана группа')
 
     if int(task) < 1 or int(task) > 5:
-        bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, неправильный номер задания'
-                         f'\nВозможный номер задания от 1 до 5')
+        logger.error("Неправильный номер задания")
+        return bot.send_message(message.chat.id,
+                                f'{message.from_user.first_name}, неправильный номер задания'
+                                f'\nВозможный номер задания от 1 до 5')
 
     if int(variant) < 1 or int(variant) > 5:
-        bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, неправильный номер варианта'
-                         f'\nВозможный номер задания от 1 до 5')
+        logger.error("Неправильный номер варианта")
+        return bot.send_message(message.chat.id,
+                                f'{message.from_user.first_name}, неправильный номер варианта'
+                                f'\nВозможный номер задания от 1 до 5')
 
     if 'github.com/' not in git:
-        bot.send_message(message.chat.id,
-                         f'{message.from_user.first_name}, некоректная ссылка')
+        return bot.send_message(message.chat.id,
+                                f'{message.from_user.first_name}, некоректная ссылка')
 
     logger.debug("Validation: ok")
 
-    name = name.split(' ')
-    all_message = name + lst[1:5]
 
-    database_entry(all_message)
+    process_finished_with_exit_code = download_rep(git)
+    if process_finished_with_exit_code == 0:
+        bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы прошли проверку')
+    else:
+        bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы не прошли проверку')
 
-    return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы записаны в Базу Данных')
+    if database_checking(fam, name, patronymic, group, task, variant) == 0:
+        database_insert(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+        return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы записаны в Базу Данных')
+    else:
+        database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+        return bot.send_message(message.chat.id, f'{message.from_user.first_name}, Вы перезаписаны в Базу Данных')
 
-# from datetime import datetime
-# def transformation_data():
-#     current_datetime = datetime.now()
-#     pos = str(current_datetime).rfind('.')
-#     current_datetime = ' Сделал последний commit: ' + str(current_datetime)[ : pos] + '\n'
-#     return str(current_datetime)
-#
-#
-# def add_to_file(ID, Link):
-#     with open("Github Data", "a") as file:
-#         file.write(ID)
-#         file.write(Link)
-#         file.write(transformation_data())
-#
-#
-# def read_file_in_array_and_transformation():
-#     lines_array = []
-#     with open("Github Data", "r") as file:
-#         lines = file.read().splitlines()
-#     for line in lines:
-#         pos = line.find(' h')
-#         lines_array.append(line[:pos])
-#     return lines_array
-#
-#
-# def delete_string_from_file(number_of_string):
-#     i = 0
-#     with open("Github Data", "r") as file:
-#         lines = file.read().splitlines()
-#     with open("Github Data", "w") as file:
-#         for line in lines:
-#             if i != number_of_string:
-#                 i += 1
-#                 ln = line + '\n'
-#                 file.write(ln)
-#
-#
-#
-# def registration(message):
-#     buffer = message.text
-#     ID = ' '
-#     Link = ' '
-#
-#     if buffer.find(',') != -1:
-#         comma_position = buffer.find(',')
-#         ID = buffer[: comma_position]
-#         Link = buffer[comma_position + 1:]
-#     elif buffer.find(',') == -1 and buffer.find('http') != -1:
-#         href_position = buffer.find('http')
-#         ID = message.from_user
-#         Link = buffer[href_position + 1:]
-#     elif buffer.find(',') == -1 and buffer.find('http') == -1:
-#         return bot.send_message(message.chat.id,
-#                                 f'{message.from_user.first_name}, ты не ввёл ссылку, попробуй ещё раз')
-#
-#     number_of_string = -1
-#     for i in range(0, len(read_file_in_array_and_transformation())):
-#         if ID == read_file_in_array_and_transformation()[i]:
-#             number_of_string = i
-#     if number_of_string == -1:
-#         add_to_file(ID, Link)
-#     else:
-#         delete_string_from_file(number_of_string)
-#         add_to_file(ID, Link)
-#
-#     return bot.send_message(message.chat.id,
-#                             f'{message.from_user.first_name}, ты записан!')
-#
-# SQLquery_to_create_database = '''CREATE TABLE student (
-#             id BIGSERIAL NOT NULL PRIMARY KEY,
-#             fam VARCHAR(50),
-#             name VARCHAR(50),
-#             patronymic VARCHAR(50),
-#             grp VARCHAR(50),
-#             task INT NOT NULL,
-#             var INT NOT NULL,
-#             git VARCHAR(200),
-#             process INT);'''
