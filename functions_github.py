@@ -12,10 +12,16 @@ logger.add("debug.log", format="{time} {level} {message}", level="DEBUG", rotati
 
 @logger.catch
 def download_rep(git: str) -> int:
+    """
+    Creates a folder. If it has already been created, it deletes and recreates.
+    Clones two repositories into the created folder and dumps all files into one folder.
+    And runs unit tests
+    """
     git_student = git
     git_teacher = teacher_git
     global new_dir
     try:
+        logger.debug(f"Right noewwe in folder {os.getcwd()}")
         os.chdir('..')
         dir_now = os.getcwd()
         new_dir = os.path.join(dir_now, 'NewDirForProgram')
@@ -35,8 +41,20 @@ def download_rep(git: str) -> int:
                  "{git_teacher}\n"
                  "{git_student}")
 
-    new_dir_student = git_student[git_student.rfind('/') + 1:git_student.rfind('.git')]
-    new_dir_teacher = git_teacher[git_teacher.rfind('/') + 1:git_teacher.rfind('.git')]
+    if '.git' in git_student:
+        logger.debug("Student ref with '.git'")
+        new_dir_student = git_student[git_student.rfind('/') + 1:git_student.rfind('.git')]
+    else:
+        logger.debug("Student ref without '.git'")
+        new_dir_student = git_student[git_student.rfind('/') + 1:]
+
+    if '.git' in git_teacher:
+        logger.debug("Teacher ref with '.git'")
+        new_dir_teacher = git_teacher[git_teacher.rfind('/') + 1:git_teacher.rfind('.git')]
+    else:
+        logger.debug("Teacher ref without '.git'")
+        new_dir_teacher = git_teacher[git_teacher.rfind('/') + 1:]
+
     source = os.path.join(new_dir, new_dir_student)
     dest = os.path.join(new_dir, new_dir_teacher)
     os.chdir(source)

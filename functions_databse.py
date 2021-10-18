@@ -10,7 +10,12 @@ logger.add("debug.log", format="{time} {level} {message}", level="DEBUG", rotati
 
 
 @logger.catch
-def database_checking(fam, name, patronymic, grp, task, var) -> int:
+def database_checking(fam: str, name: str, patronymic: str, grp: str, task: str, var: str) -> int:
+    """
+    Checks if there is such a student with
+    the same assignment number and variant
+    in the database
+    """
     global connection, cursor, results
     try:
         connection = psycopg2.connect(user=db_user,
@@ -40,7 +45,14 @@ def database_checking(fam, name, patronymic, grp, task, var) -> int:
 
 
 @logger.catch
-def database_update(fam, name, patronymic, grp, task, var, git, process_finished_with_exit_code) -> None:
+def database_update(fam: str, name: str, patronymic: str, grp: str, task: str, var: str, git: str,
+                    process_finished_with_exit_code: int) -> None:
+    """
+    If return from database_checking != 0, then
+    updates a variable process in the database
+    that shows the code in which
+    the student's program ended
+    """
     global connection, cursor
     try:
         connection = psycopg2.connect(user=db_user,
@@ -67,7 +79,12 @@ def database_update(fam, name, patronymic, grp, task, var, git, process_finished
 
 
 @logger.catch
-def database_insert(fam, name, patronymic, grp, task, var, git, process_finished_with_exit_code) -> None:
+def database_insert(fam: str, name: str, patronymic: str, grp: str, task: str, var: str, git: str,
+                    process_finished_with_exit_code: int) -> None:
+    """
+    If return from database_checking != 0, then
+    inserts this student into the database
+    """
     global connection, cursor
     try:
         connection = psycopg2.connect(user=db_user,
@@ -95,6 +112,10 @@ def database_insert(fam, name, patronymic, grp, task, var, git, process_finished
 
 @logger.catch
 def print_res() -> str:
+    """
+    Displays the database in telegram bot
+    by the special command /database
+    """
     global connection, cursor, res
     try:
         connection = psycopg2.connect(user=db_user,
