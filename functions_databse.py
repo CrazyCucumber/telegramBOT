@@ -1,8 +1,9 @@
 import telebot
 import psycopg2
 from psycopg2 import Error
+from loguru import logger
 
-from env import *
+from env import bot_token, db_name, db_user, db_password, db_host, db_port
 
 bot = telebot.TeleBot(bot_token)
 

@@ -21,7 +21,7 @@ def download_rep(git: str) -> int:
     git_teacher = teacher_git
     global new_dir
     try:
-        logger.debug(f"Right noewwe in folder {os.getcwd()}")
+        logger.debug(f"Right now we in folder {os.getcwd()}")
         os.chdir('..')
         dir_now = os.getcwd()
         new_dir = os.path.join(dir_now, 'NewDirForProgram')
@@ -37,7 +37,7 @@ def download_rep(git: str) -> int:
 
     os.system(f'git clone {git_teacher}')
     os.system(f'git clone {git_student}')
-    logger.debug(f"clone 2 rep:\n"
+    logger.debug("clone 2 rep:\n"
                  "{git_teacher}\n"
                  "{git_student}")
 

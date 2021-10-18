@@ -549,3 +549,17 @@ The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
 2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
 2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
 2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
+2021-10-18T11:23:28.323962+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.325956+0300 DEBUG 	success
+2021-10-18T11:23:28.325956+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.326961+0300 DEBUG 	success
+2021-10-18T11:23:28.326961+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.327960+0300 DEBUG 	success
+2021-10-18T11:23:28.327960+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.328955+0300 DEBUG 	success
+2021-10-18T11:23:28.328955+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.329959+0300 DEBUG 	success
+2021-10-18T11:23:28.330958+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.331957+0300 DEBUG 	success
+2021-10-18T11:23:28.331957+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-18T11:23:28.332952+0300 DEBUG 	success
