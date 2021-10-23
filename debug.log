@@ -1,565 +1,2207 @@
-2021-10-17T06:16:58.243197+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.245206+0300 DEBUG 	success
-2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.245206+0300 DEBUG 	success
-2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.245206+0300 DEBUG 	success
-2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.245206+0300 DEBUG 	success
-2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.245206+0300 DEBUG 	success
-2021-10-17T06:16:58.245206+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.252715+0300 DEBUG 	success
-2021-10-17T06:16:58.253257+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
-2021-10-17T06:16:58.253257+0300 DEBUG 	success
-2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T06:17:12.654393+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
-2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
-2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
-2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
-2021-10-17T06:17:17.847797+0300 DEBUG Validation: ok
-2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T06:17:17.849778+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:17:17.897752+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T06:17:17.899750+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+2021-10-18T18:33:46.981619+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:46.997296+0300 DEBUG 	success
+2021-10-18T18:33:46.997296+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:46.997296+0300 DEBUG 	success
+2021-10-18T18:33:46.997296+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:46.997296+0300 DEBUG 	success
+2021-10-18T18:33:46.997296+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:46.997296+0300 DEBUG 	success
+2021-10-18T18:33:46.997296+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:47.012884+0300 DEBUG 	success
+2021-10-18T18:33:47.012884+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:47.012884+0300 DEBUG 	success
+2021-10-18T18:33:47.012884+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-18T18:33:47.012884+0300 DEBUG 	success
+2021-10-18T18:34:12.512068+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:34:12.512068+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:34:12.512068+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:34:12.512068+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:34:12.512068+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:34:14.948299+0300 DEBUG Validation: ok
+2021-10-18T18:34:14.948299+0300 DEBUG Validation: ok
+2021-10-18T18:34:14.948299+0300 DEBUG Validation: ok
+2021-10-18T18:34:14.948299+0300 DEBUG Validation: ok
+2021-10-18T18:34:14.948299+0300 DEBUG Validation: ok
+2021-10-18T18:34:14.950287+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:34:14.950287+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:34:14.950287+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:34:14.950287+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:34:14.950287+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:34:14.952318+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:34:14.952318+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:34:14.952318+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:34:14.952318+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:34:14.952318+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:34:19.909405+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+2021-10-18T18:34:19.909405+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+2021-10-18T18:34:19.909405+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+2021-10-18T18:34:19.909405+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:17:20.224822+0300 DEBUG clone 2 rep:
+2021-10-18T18:34:19.909405+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:17:20.224822+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
-2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
-2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
-2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
-2021-10-17T06:17:20.341932+0300 DEBUG Run unit tests
-2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
-2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
-2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
-2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
-2021-10-17T06:17:20.666291+0300 DEBUG Connected to database
-2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
-2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
-2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
-2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
-2021-10-17T06:17:20.669290+0300 DEBUG 1 - same students
-2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.669290+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
-2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
-2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
-2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
-2021-10-17T06:17:20.707267+0300 DEBUG Connected to database
-2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
-2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
-2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
-2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
-2021-10-17T06:17:20.709266+0300 DEBUG Student records are updated in the database
-2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.710265+0300 DEBUG Database connection closed
-2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
-2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
-2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
-2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
-2021-10-17T06:17:20.784024+0300 DEBUG student_register(message) function worked
-2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
-2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
-2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
-2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
-2021-10-17T06:18:57.395431+0300 DEBUG Validation: ok
-2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:18:57.397428+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+2021-10-18T18:34:19.909405+0300 DEBUG Student ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Student ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Student ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Student ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Student ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:34:19.909405+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:34:19.909405+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:34:19.909405+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:34:19.909405+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:34:19.909405+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:34:20.672657+0300 DEBUG Run unit tests
+2021-10-18T18:34:20.672657+0300 DEBUG Run unit tests
+2021-10-18T18:34:20.672657+0300 DEBUG Run unit tests
+2021-10-18T18:34:20.672657+0300 DEBUG Run unit tests
+2021-10-18T18:34:20.672657+0300 DEBUG Run unit tests
+2021-10-18T18:34:21.142115+0300 DEBUG Connected to database
+2021-10-18T18:34:21.142115+0300 DEBUG Connected to database
+2021-10-18T18:34:21.142115+0300 DEBUG Connected to database
+2021-10-18T18:34:21.142115+0300 DEBUG Connected to database
+2021-10-18T18:34:21.142115+0300 DEBUG Connected to database
+2021-10-18T18:34:21.157740+0300 DEBUG 1 - same students
+2021-10-18T18:34:21.157740+0300 DEBUG 1 - same students
+2021-10-18T18:34:21.157740+0300 DEBUG 1 - same students
+2021-10-18T18:34:21.157740+0300 DEBUG 1 - same students
+2021-10-18T18:34:21.157740+0300 DEBUG 1 - same students
+2021-10-18T18:34:21.157740+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.157740+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.157740+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.157740+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.157740+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.204571+0300 DEBUG Connected to database
+2021-10-18T18:34:21.204571+0300 DEBUG Connected to database
+2021-10-18T18:34:21.204571+0300 DEBUG Connected to database
+2021-10-18T18:34:21.204571+0300 DEBUG Connected to database
+2021-10-18T18:34:21.204571+0300 DEBUG Connected to database
+2021-10-18T18:34:21.226785+0300 DEBUG Student records are updated in the database
+2021-10-18T18:34:21.226785+0300 DEBUG Student records are updated in the database
+2021-10-18T18:34:21.226785+0300 DEBUG Student records are updated in the database
+2021-10-18T18:34:21.226785+0300 DEBUG Student records are updated in the database
+2021-10-18T18:34:21.226785+0300 DEBUG Student records are updated in the database
+2021-10-18T18:34:21.226785+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.226785+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.226785+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.226785+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.226785+0300 DEBUG Database connection closed
+2021-10-18T18:34:21.373794+0300 DEBUG student_register(message) function worked
+2021-10-18T18:34:21.373794+0300 DEBUG student_register(message) function worked
+2021-10-18T18:34:21.373794+0300 DEBUG student_register(message) function worked
+2021-10-18T18:34:21.373794+0300 DEBUG student_register(message) function worked
+2021-10-18T18:34:21.373794+0300 DEBUG student_register(message) function worked
+2021-10-18T18:35:04.221062+0300 DEBUG Validation: ok
+2021-10-18T18:35:04.221062+0300 DEBUG Validation: ok
+2021-10-18T18:35:04.221062+0300 DEBUG Validation: ok
+2021-10-18T18:35:04.221062+0300 DEBUG Validation: ok
+2021-10-18T18:35:04.221062+0300 DEBUG Validation: ok
+2021-10-18T18:35:04.223060+0300 DEBUG Right now we in folder D:\mai_bot\NewDirForProgram\unit_test
+2021-10-18T18:35:04.223060+0300 DEBUG Right now we in folder D:\mai_bot\NewDirForProgram\unit_test
+2021-10-18T18:35:04.223060+0300 DEBUG Right now we in folder D:\mai_bot\NewDirForProgram\unit_test
+2021-10-18T18:35:04.223060+0300 DEBUG Right now we in folder D:\mai_bot\NewDirForProgram\unit_test
+2021-10-18T18:35:04.223060+0300 DEBUG Right now we in folder D:\mai_bot\NewDirForProgram\unit_test
+2021-10-18T18:35:04.225062+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram\NewDirForProgram
+2021-10-18T18:35:04.225062+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram\NewDirForProgram
+2021-10-18T18:35:04.225062+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram\NewDirForProgram
+2021-10-18T18:35:04.225062+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram\NewDirForProgram
+2021-10-18T18:35:04.225062+0300 DEBUG Create new folder D:\mai_bot\NewDirForProgram\NewDirForProgram
+2021-10-18T18:35:07.038832+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+2021-10-18T18:35:07.038832+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+2021-10-18T18:35:07.038832+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+2021-10-18T18:35:07.038832+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:18:59.894775+0300 DEBUG clone 2 rep:
+2021-10-18T18:35:07.038832+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:18:59.894775+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
-2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
-2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
-2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
-2021-10-17T06:19:00.004610+0300 DEBUG Run unit tests
-2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
-2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
-2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
-2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
-2021-10-17T06:19:00.148938+0300 DEBUG Connected to database
-2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
-2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
-2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
-2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
-2021-10-17T06:19:00.151936+0300 DEBUG 0 - same students
-2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.151936+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
-2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
-2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
-2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
-2021-10-17T06:19:00.191912+0300 DEBUG Connected to database
-2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
-2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
-2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
-2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
-2021-10-17T06:19:00.194910+0300 DEBUG The student is registered in the database
-2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.194910+0300 DEBUG Database connection closed
-2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
-2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
-2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
-2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
-2021-10-17T06:19:00.310518+0300 DEBUG student_register(message) function worked
-2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
-2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
-2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
-2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
-2021-10-17T06:20:20.121556+0300 DEBUG Validation: ok
-2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
-2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
-2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
-2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
-2021-10-17T06:20:20.124555+0300 DEBUG Create new folder D:\MAI_TG_BOT\NewDirForProgram\NewDirForProgram
-2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+2021-10-18T18:35:07.038832+0300 DEBUG Student ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Student ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Student ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Student ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Student ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:35:07.038832+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:35:07.045359+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:35:07.045359+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:35:07.045359+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:35:07.045359+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:35:07.045359+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:35:07.593805+0300 DEBUG Run unit tests
+2021-10-18T18:35:07.593805+0300 DEBUG Run unit tests
+2021-10-18T18:35:07.593805+0300 DEBUG Run unit tests
+2021-10-18T18:35:07.593805+0300 DEBUG Run unit tests
+2021-10-18T18:35:07.593805+0300 DEBUG Run unit tests
+2021-10-18T18:35:07.781319+0300 DEBUG Connected to database
+2021-10-18T18:35:07.781319+0300 DEBUG Connected to database
+2021-10-18T18:35:07.781319+0300 DEBUG Connected to database
+2021-10-18T18:35:07.781319+0300 DEBUG Connected to database
+2021-10-18T18:35:07.781319+0300 DEBUG Connected to database
+2021-10-18T18:35:07.784317+0300 DEBUG 1 - same students
+2021-10-18T18:35:07.784317+0300 DEBUG 1 - same students
+2021-10-18T18:35:07.784317+0300 DEBUG 1 - same students
+2021-10-18T18:35:07.784317+0300 DEBUG 1 - same students
+2021-10-18T18:35:07.784317+0300 DEBUG 1 - same students
+2021-10-18T18:35:07.784317+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.784317+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.784317+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.784317+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.784317+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.826316+0300 DEBUG Connected to database
+2021-10-18T18:35:07.826316+0300 DEBUG Connected to database
+2021-10-18T18:35:07.826316+0300 DEBUG Connected to database
+2021-10-18T18:35:07.826316+0300 DEBUG Connected to database
+2021-10-18T18:35:07.826316+0300 DEBUG Connected to database
+2021-10-18T18:35:07.829320+0300 DEBUG Student records are updated in the database
+2021-10-18T18:35:07.829320+0300 DEBUG Student records are updated in the database
+2021-10-18T18:35:07.829320+0300 DEBUG Student records are updated in the database
+2021-10-18T18:35:07.829320+0300 DEBUG Student records are updated in the database
+2021-10-18T18:35:07.829320+0300 DEBUG Student records are updated in the database
+2021-10-18T18:35:07.830320+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.830320+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.830320+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.830320+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.830320+0300 DEBUG Database connection closed
+2021-10-18T18:35:07.920396+0300 DEBUG student_register(message) function worked
+2021-10-18T18:35:07.920396+0300 DEBUG student_register(message) function worked
+2021-10-18T18:35:07.920396+0300 DEBUG student_register(message) function worked
+2021-10-18T18:35:07.920396+0300 DEBUG student_register(message) function worked
+2021-10-18T18:35:07.920396+0300 DEBUG student_register(message) function worked
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:04.151590+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-18T18:40:04.151590+0300 DEBUG 	success
+2021-10-18T18:40:11.109221+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:40:11.109221+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:40:11.109221+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:40:11.109221+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:40:11.109221+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T18:40:22.163793+0300 DEBUG Validation: ok
+2021-10-18T18:40:22.163793+0300 DEBUG Validation: ok
+2021-10-18T18:40:22.163793+0300 DEBUG Validation: ok
+2021-10-18T18:40:22.163793+0300 DEBUG Validation: ok
+2021-10-18T18:40:22.163793+0300 DEBUG Validation: ok
+2021-10-18T18:40:22.165799+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:40:22.165799+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:40:22.165799+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:40:22.165799+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:40:22.165799+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T18:40:22.167795+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T18:40:22.167795+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T18:40:22.167795+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T18:40:22.167795+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T18:40:22.167795+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T18:40:22.246793+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:40:22.246793+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:40:22.246793+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:40:22.246793+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:40:22.246793+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T18:40:22.246793+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T18:40:22.246793+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T18:40:22.246793+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T18:40:22.246793+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T18:40:22.246793+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T18:40:24.434654+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+2021-10-18T18:40:24.434654+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+2021-10-18T18:40:24.434654+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+2021-10-18T18:40:24.434654+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:20:22.582815+0300 DEBUG clone 2 rep:
+2021-10-18T18:40:24.434654+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:20:22.582815+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
-2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
-2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
-2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
-2021-10-17T06:20:22.694738+0300 DEBUG Run unit tests
-2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
-2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
-2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
-2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
-2021-10-17T06:20:22.821254+0300 DEBUG Connected to database
-2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
-2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
-2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
-2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
-2021-10-17T06:20:22.824253+0300 DEBUG 1 - same students
-2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.824253+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
-2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
-2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
-2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
-2021-10-17T06:20:22.870226+0300 DEBUG Connected to database
-2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
-2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
-2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
-2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
-2021-10-17T06:20:22.874223+0300 DEBUG Student records are updated in the database
-2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.874223+0300 DEBUG Database connection closed
-2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
-2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
-2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
-2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
-2021-10-17T06:20:22.942752+0300 DEBUG student_register(message) function worked
-2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
-2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
-2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
-2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
-2021-10-17T06:22:15.569042+0300 DEBUG Connected to database
-2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
-2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
-2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
-2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
-2021-10-17T06:22:15.571051+0300 DEBUG Database output to telegram
-2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
-2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
-2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
-2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
-2021-10-17T06:22:15.572048+0300 DEBUG Database connection closed
-2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
-2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
-2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
-2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
-2021-10-17T06:22:15.663439+0300 DEBUG database(message) function worked
-2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
-2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
-2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
-2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
-2021-10-17T06:22:41.364763+0300 ERROR Неправильный формат сообщения
-2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
-2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
-2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
-2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
-2021-10-17T06:22:41.433231+0300 DEBUG student_register(message) function worked
-2021-10-17T12:48:07.000714+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.025909+0300 DEBUG 	success
-2021-10-17T12:48:07.026908+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.028906+0300 DEBUG 	success
-2021-10-17T12:48:07.028906+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.031887+0300 DEBUG 	success
-2021-10-17T12:48:07.031887+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.033886+0300 DEBUG 	success
-2021-10-17T12:48:07.034885+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.036883+0300 DEBUG 	success
-2021-10-17T12:48:07.036883+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.038883+0300 DEBUG 	success
-2021-10-17T12:48:07.039882+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
-2021-10-17T12:48:07.041880+0300 DEBUG 	success
-2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T12:48:25.076684+0300 DEBUG Bot sent a message to the command /start
-2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
-2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
-2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
-2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
-2021-10-17T12:49:02.947730+0300 DEBUG Validation: ok
-2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T12:49:02.948730+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T12:49:03.024687+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T12:49:03.025685+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+2021-10-18T18:40:24.434654+0300 DEBUG Student ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Student ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Student ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Student ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Student ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Teacher ref with '.git'
+2021-10-18T18:40:24.434654+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:40:24.434654+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:40:24.434654+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:40:24.434654+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:40:24.434654+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T18:40:24.572224+0300 DEBUG Run unit tests
+2021-10-18T18:40:24.572224+0300 DEBUG Run unit tests
+2021-10-18T18:40:24.572224+0300 DEBUG Run unit tests
+2021-10-18T18:40:24.572224+0300 DEBUG Run unit tests
+2021-10-18T18:40:24.572224+0300 DEBUG Run unit tests
+2021-10-18T18:40:24.748678+0300 DEBUG Connected to database
+2021-10-18T18:40:24.748678+0300 DEBUG Connected to database
+2021-10-18T18:40:24.748678+0300 DEBUG Connected to database
+2021-10-18T18:40:24.748678+0300 DEBUG Connected to database
+2021-10-18T18:40:24.748678+0300 DEBUG Connected to database
+2021-10-18T18:40:24.752682+0300 DEBUG 1 - same students
+2021-10-18T18:40:24.752682+0300 DEBUG 1 - same students
+2021-10-18T18:40:24.752682+0300 DEBUG 1 - same students
+2021-10-18T18:40:24.752682+0300 DEBUG 1 - same students
+2021-10-18T18:40:24.752682+0300 DEBUG 1 - same students
+2021-10-18T18:40:24.753679+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.753679+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.753679+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.753679+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.753679+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.800677+0300 DEBUG Connected to database
+2021-10-18T18:40:24.800677+0300 DEBUG Connected to database
+2021-10-18T18:40:24.800677+0300 DEBUG Connected to database
+2021-10-18T18:40:24.800677+0300 DEBUG Connected to database
+2021-10-18T18:40:24.800677+0300 DEBUG Connected to database
+2021-10-18T18:40:24.804676+0300 DEBUG Student records are updated in the database
+2021-10-18T18:40:24.804676+0300 DEBUG Student records are updated in the database
+2021-10-18T18:40:24.804676+0300 DEBUG Student records are updated in the database
+2021-10-18T18:40:24.804676+0300 DEBUG Student records are updated in the database
+2021-10-18T18:40:24.804676+0300 DEBUG Student records are updated in the database
+2021-10-18T18:40:24.804676+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.804676+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.804676+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.804676+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.804676+0300 DEBUG Database connection closed
+2021-10-18T18:40:24.886406+0300 DEBUG student_register(message) function worked
+2021-10-18T18:40:24.886406+0300 DEBUG student_register(message) function worked
+2021-10-18T18:40:24.886406+0300 DEBUG student_register(message) function worked
+2021-10-18T18:40:24.886406+0300 DEBUG student_register(message) function worked
+2021-10-18T18:40:24.886406+0300 DEBUG student_register(message) function worked
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:17:28.228035+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-18T22:17:28.228035+0300 DEBUG 	success
+2021-10-18T22:25:57.937188+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:25:57.937188+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:25:57.937188+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:25:57.937188+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:25:57.937188+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:26:03.325867+0300 DEBUG Validation: ok
+2021-10-18T22:26:03.325867+0300 DEBUG Validation: ok
+2021-10-18T22:26:03.325867+0300 DEBUG Validation: ok
+2021-10-18T22:26:03.325867+0300 DEBUG Validation: ok
+2021-10-18T22:26:03.325867+0300 DEBUG Validation: ok
+2021-10-18T22:26:03.326883+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:26:03.326883+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:26:03.326883+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:26:03.326883+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:26:03.326883+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:26:03.329897+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:26:03.329897+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:26:03.329897+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:26:03.329897+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:26:03.329897+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:26:03.393857+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:26:03.393857+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:26:03.393857+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:26:03.393857+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:26:03.393857+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:26:03.393857+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:26:03.393857+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:26:03.393857+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:26:03.393857+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:26:03.393857+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:26:05.748766+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+2021-10-18T22:26:05.748766+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+2021-10-18T22:26:05.748766+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+2021-10-18T22:26:05.748766+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T12:49:05.998850+0300 DEBUG clone 2 rep:
+2021-10-18T22:26:05.748766+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T12:49:05.999849+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
-2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
-2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
-2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
-2021-10-17T12:49:06.247083+0300 DEBUG Run unit tests
-2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
-2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
-2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
-2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
-2021-10-17T12:49:06.469952+0300 DEBUG Connected to database
-2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
-2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
-2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
-2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
-2021-10-17T12:49:06.519924+0300 DEBUG 1 - same students
-2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.519924+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
-2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
-2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
-2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
-2021-10-17T12:49:06.561899+0300 DEBUG Connected to database
-2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
-2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
-2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
-2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
-2021-10-17T12:49:06.602113+0300 DEBUG Student records are updated in the database
-2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.602113+0300 DEBUG Database connection closed
-2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
-2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
-2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
-2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
-2021-10-17T12:49:06.717108+0300 DEBUG student_register(message) function worked
-2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
-2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
-2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
-2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
-2021-10-17T12:52:39.820266+0300 DEBUG Connected to database
-2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
-2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
-2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
-2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
-2021-10-17T12:52:39.857247+0300 DEBUG Database output to telegram
-2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
-2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
-2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
-2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
-2021-10-17T12:52:39.858244+0300 DEBUG Database connection closed
-2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
-2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
-2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
-2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
-2021-10-17T12:52:39.947193+0300 DEBUG database(message) function worked
-2021-10-17T22:03:52.875014+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-17T22:03:52.890637+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-17T22:03:52.890637+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-17T22:03:52.890637+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-17T22:03:52.890637+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-17T22:03:52.890637+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-17T22:03:52.890637+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
-2021-10-17T22:03:52.890637+0300 DEBUG 	success
-2021-10-18T11:00:08.271151+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.311900+0300 DEBUG 	success
-2021-10-18T11:00:08.312900+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.315898+0300 DEBUG 	success
-2021-10-18T11:00:08.316918+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.318916+0300 DEBUG 	success
-2021-10-18T11:00:08.319916+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.321914+0300 DEBUG 	success
-2021-10-18T11:00:08.321914+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.324913+0300 DEBUG 	success
-2021-10-18T11:00:08.324913+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.327911+0300 DEBUG 	success
-2021-10-18T11:00:08.327911+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
-2021-10-18T11:00:08.338886+0300 DEBUG 	success
-2021-10-18T11:00:37.785820+0300 DEBUG Bot sent a message to the command /start
-2021-10-18T11:00:37.785820+0300 DEBUG Bot sent a message to the command /start
-2021-10-18T11:00:37.785820+0300 DEBUG Bot sent a message to the command /start
-2021-10-18T11:00:37.785820+0300 DEBUG Bot sent a message to the command /start
-2021-10-18T11:00:37.785820+0300 DEBUG Bot sent a message to the command /start
-2021-10-18T11:00:55.098801+0300 DEBUG Validation: ok
-2021-10-18T11:00:55.098801+0300 DEBUG Validation: ok
-2021-10-18T11:00:55.098801+0300 DEBUG Validation: ok
-2021-10-18T11:00:55.098801+0300 DEBUG Validation: ok
-2021-10-18T11:00:55.098801+0300 DEBUG Validation: ok
-2021-10-18T11:00:55.100798+0300 DEBUG Right noewwe in folder D:\MAI_TG_BOT\TELEGRAM_BOT_MAI
-2021-10-18T11:00:55.100798+0300 DEBUG Right noewwe in folder D:\MAI_TG_BOT\TELEGRAM_BOT_MAI
-2021-10-18T11:00:55.100798+0300 DEBUG Right noewwe in folder D:\MAI_TG_BOT\TELEGRAM_BOT_MAI
-2021-10-18T11:00:55.100798+0300 DEBUG Right noewwe in folder D:\MAI_TG_BOT\TELEGRAM_BOT_MAI
-2021-10-18T11:00:55.100798+0300 DEBUG Right noewwe in folder D:\MAI_TG_BOT\TELEGRAM_BOT_MAI
-2021-10-18T11:00:55.101812+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-18T11:00:55.101812+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-18T11:00:55.101812+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-18T11:00:55.101812+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-18T11:00:55.101812+0300 DEBUG <class 'FileExistsError'>
-The folder D:\MAI_TG_BOT\NewDirForProgram has already been created
-2021-10-18T11:00:55.163914+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-18T11:00:55.163914+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-18T11:00:55.163914+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-18T11:00:55.163914+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-18T11:00:55.163914+0300 DEBUG Delete folder D:\MAI_TG_BOT\NewDirForProgram
-2021-10-18T11:00:55.164913+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-18T11:00:55.164913+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-18T11:00:55.164913+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-18T11:00:55.164913+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-18T11:00:55.164913+0300 DEBUG Create new folder D:\MAI_TG_BOT
-2021-10-18T11:00:57.817382+0300 DEBUG clone 2 rep:
+2021-10-18T22:26:05.748766+0300 DEBUG Student ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Student ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Student ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Student ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Student ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:26:05.748766+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:26:05.748766+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:26:05.748766+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:26:05.748766+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:26:05.748766+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:26:06.030004+0300 DEBUG Run unit tests
+2021-10-18T22:26:06.030004+0300 DEBUG Run unit tests
+2021-10-18T22:26:06.030004+0300 DEBUG Run unit tests
+2021-10-18T22:26:06.030004+0300 DEBUG Run unit tests
+2021-10-18T22:26:06.030004+0300 DEBUG Run unit tests
+2021-10-18T22:26:06.030004+0300 DEBUG Return in folder D:\mai_bot
+2021-10-18T22:26:06.030004+0300 DEBUG Return in folder D:\mai_bot
+2021-10-18T22:26:06.030004+0300 DEBUG Return in folder D:\mai_bot
+2021-10-18T22:26:06.030004+0300 DEBUG Return in folder D:\mai_bot
+2021-10-18T22:26:06.030004+0300 DEBUG Return in folder D:\mai_bot
+2021-10-18T22:26:06.284248+0300 DEBUG Connected to database
+2021-10-18T22:26:06.284248+0300 DEBUG Connected to database
+2021-10-18T22:26:06.284248+0300 DEBUG Connected to database
+2021-10-18T22:26:06.284248+0300 DEBUG Connected to database
+2021-10-18T22:26:06.284248+0300 DEBUG Connected to database
+2021-10-18T22:26:06.354245+0300 DEBUG 1 - same students
+2021-10-18T22:26:06.354245+0300 DEBUG 1 - same students
+2021-10-18T22:26:06.354245+0300 DEBUG 1 - same students
+2021-10-18T22:26:06.354245+0300 DEBUG 1 - same students
+2021-10-18T22:26:06.354245+0300 DEBUG 1 - same students
+2021-10-18T22:26:06.354245+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.354245+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.354245+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.354245+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.354245+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.396638+0300 DEBUG Connected to database
+2021-10-18T22:26:06.396638+0300 DEBUG Connected to database
+2021-10-18T22:26:06.396638+0300 DEBUG Connected to database
+2021-10-18T22:26:06.396638+0300 DEBUG Connected to database
+2021-10-18T22:26:06.396638+0300 DEBUG Connected to database
+2021-10-18T22:26:06.405635+0300 DEBUG Student records are updated in the database
+2021-10-18T22:26:06.405635+0300 DEBUG Student records are updated in the database
+2021-10-18T22:26:06.405635+0300 DEBUG Student records are updated in the database
+2021-10-18T22:26:06.405635+0300 DEBUG Student records are updated in the database
+2021-10-18T22:26:06.405635+0300 DEBUG Student records are updated in the database
+2021-10-18T22:26:06.406623+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.406623+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.406623+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.406623+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.406623+0300 DEBUG Database connection closed
+2021-10-18T22:26:06.489318+0300 DEBUG student_register(message) function worked
+2021-10-18T22:26:06.489318+0300 DEBUG student_register(message) function worked
+2021-10-18T22:26:06.489318+0300 DEBUG student_register(message) function worked
+2021-10-18T22:26:06.489318+0300 DEBUG student_register(message) function worked
+2021-10-18T22:26:06.489318+0300 DEBUG student_register(message) function worked
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:29:31.455624+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-18T22:29:31.455624+0300 DEBUG 	success
+2021-10-18T22:30:05.853448+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:30:05.853448+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:30:05.853448+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:30:05.853448+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:30:05.853448+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:30:10.624261+0300 DEBUG Validation: ok
+2021-10-18T22:30:10.624261+0300 DEBUG Validation: ok
+2021-10-18T22:30:10.624261+0300 DEBUG Validation: ok
+2021-10-18T22:30:10.624261+0300 DEBUG Validation: ok
+2021-10-18T22:30:10.624261+0300 DEBUG Validation: ok
+2021-10-18T22:30:10.625261+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:30:10.625261+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:30:10.625261+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:30:10.625261+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:30:10.625261+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:30:10.627258+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:30:10.627258+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:30:10.627258+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:30:10.627258+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:30:10.627258+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:30:10.628258+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:30:10.628258+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:30:10.628258+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:30:10.628258+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:30:10.628258+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:30:10.676261+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:30:10.676261+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:30:10.676261+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:30:10.676261+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:30:10.676261+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:30:10.677259+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:30:10.677259+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:30:10.677259+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:30:10.677259+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:30:10.677259+0300 DEBUG Create new folder D:\mai_bot
+2021-10-18T22:30:13.282021+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-18T11:00:57.817382+0300 DEBUG clone 2 rep:
+2021-10-18T22:30:13.282021+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-18T11:00:57.817382+0300 DEBUG clone 2 rep:
+2021-10-18T22:30:13.282021+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-18T11:00:57.817382+0300 DEBUG clone 2 rep:
+2021-10-18T22:30:13.282021+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-18T11:00:57.817382+0300 DEBUG clone 2 rep:
+2021-10-18T22:30:13.282021+0300 DEBUG clone 2 rep:
 {git_teacher}
 {git_student}
-2021-10-18T11:00:57.817382+0300 DEBUG Student ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Student ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Student ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Student ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Student ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Teacher ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Teacher ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Teacher ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Teacher ref with '.git'
-2021-10-18T11:00:57.817382+0300 DEBUG Teacher ref with '.git'
-2021-10-18T11:00:57.818377+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-18T11:00:57.818377+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-18T11:00:57.818377+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-18T11:00:57.818377+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-18T11:00:57.818377+0300 DEBUG Moved all files except README.md and .git into one folder
-2021-10-18T11:00:58.083266+0300 DEBUG Run unit tests
-2021-10-18T11:00:58.083266+0300 DEBUG Run unit tests
-2021-10-18T11:00:58.083266+0300 DEBUG Run unit tests
-2021-10-18T11:00:58.083266+0300 DEBUG Run unit tests
-2021-10-18T11:00:58.083266+0300 DEBUG Run unit tests
-2021-10-18T11:00:58.223525+0300 DEBUG Connected to database
-2021-10-18T11:00:58.223525+0300 DEBUG Connected to database
-2021-10-18T11:00:58.223525+0300 DEBUG Connected to database
-2021-10-18T11:00:58.223525+0300 DEBUG Connected to database
-2021-10-18T11:00:58.223525+0300 DEBUG Connected to database
-2021-10-18T11:00:58.258592+0300 DEBUG 0 - same students
-2021-10-18T11:00:58.258592+0300 DEBUG 0 - same students
-2021-10-18T11:00:58.258592+0300 DEBUG 0 - same students
-2021-10-18T11:00:58.258592+0300 DEBUG 0 - same students
-2021-10-18T11:00:58.258592+0300 DEBUG 0 - same students
-2021-10-18T11:00:58.258592+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.258592+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.258592+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.258592+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.258592+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.301557+0300 DEBUG Connected to database
-2021-10-18T11:00:58.301557+0300 DEBUG Connected to database
-2021-10-18T11:00:58.301557+0300 DEBUG Connected to database
-2021-10-18T11:00:58.301557+0300 DEBUG Connected to database
-2021-10-18T11:00:58.301557+0300 DEBUG Connected to database
-2021-10-18T11:00:58.342896+0300 DEBUG The student is registered in the database
-2021-10-18T11:00:58.342896+0300 DEBUG The student is registered in the database
-2021-10-18T11:00:58.342896+0300 DEBUG The student is registered in the database
-2021-10-18T11:00:58.342896+0300 DEBUG The student is registered in the database
-2021-10-18T11:00:58.342896+0300 DEBUG The student is registered in the database
-2021-10-18T11:00:58.342896+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.342896+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.342896+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.342896+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.342896+0300 DEBUG Database connection closed
-2021-10-18T11:00:58.414328+0300 DEBUG student_register(message) function worked
-2021-10-18T11:00:58.414328+0300 DEBUG student_register(message) function worked
-2021-10-18T11:00:58.414328+0300 DEBUG student_register(message) function worked
-2021-10-18T11:00:58.414328+0300 DEBUG student_register(message) function worked
-2021-10-18T11:00:58.414328+0300 DEBUG student_register(message) function worked
-2021-10-18T11:01:23.177628+0300 DEBUG Connected to database
-2021-10-18T11:01:23.177628+0300 DEBUG Connected to database
-2021-10-18T11:01:23.177628+0300 DEBUG Connected to database
-2021-10-18T11:01:23.177628+0300 DEBUG Connected to database
-2021-10-18T11:01:23.177628+0300 DEBUG Connected to database
-2021-10-18T11:01:23.180627+0300 DEBUG Database output to telegram
-2021-10-18T11:01:23.180627+0300 DEBUG Database output to telegram
-2021-10-18T11:01:23.180627+0300 DEBUG Database output to telegram
-2021-10-18T11:01:23.180627+0300 DEBUG Database output to telegram
-2021-10-18T11:01:23.180627+0300 DEBUG Database output to telegram
-2021-10-18T11:01:23.180627+0300 DEBUG Database connection closed
-2021-10-18T11:01:23.180627+0300 DEBUG Database connection closed
-2021-10-18T11:01:23.180627+0300 DEBUG Database connection closed
-2021-10-18T11:01:23.180627+0300 DEBUG Database connection closed
-2021-10-18T11:01:23.180627+0300 DEBUG Database connection closed
-2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
-2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
-2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
-2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
-2021-10-18T11:01:23.495977+0300 DEBUG database(message) function worked
-2021-10-18T11:23:28.323962+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.325956+0300 DEBUG 	success
-2021-10-18T11:23:28.325956+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.326961+0300 DEBUG 	success
-2021-10-18T11:23:28.326961+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.327960+0300 DEBUG 	success
-2021-10-18T11:23:28.327960+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.328955+0300 DEBUG 	success
-2021-10-18T11:23:28.328955+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.329959+0300 DEBUG 	success
-2021-10-18T11:23:28.330958+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.331957+0300 DEBUG 	success
-2021-10-18T11:23:28.331957+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
-2021-10-18T11:23:28.332952+0300 DEBUG 	success
+2021-10-18T22:30:13.283021+0300 DEBUG Student ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Student ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Student ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Student ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Student ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:30:13.283021+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:30:13.284021+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:30:13.284021+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:30:13.284021+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:30:13.284021+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:30:13.284021+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:30:13.468275+0300 DEBUG Run unit tests
+2021-10-18T22:30:13.468275+0300 DEBUG Run unit tests
+2021-10-18T22:30:13.468275+0300 DEBUG Run unit tests
+2021-10-18T22:30:13.468275+0300 DEBUG Run unit tests
+2021-10-18T22:30:13.468275+0300 DEBUG Run unit tests
+2021-10-18T22:30:13.468275+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:30:13.468275+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:30:13.468275+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:30:13.468275+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:30:13.468275+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:30:13.780382+0300 DEBUG Connected to database
+2021-10-18T22:30:13.780382+0300 DEBUG Connected to database
+2021-10-18T22:30:13.780382+0300 DEBUG Connected to database
+2021-10-18T22:30:13.780382+0300 DEBUG Connected to database
+2021-10-18T22:30:13.780382+0300 DEBUG Connected to database
+2021-10-18T22:30:13.783377+0300 DEBUG 1 - same students
+2021-10-18T22:30:13.783377+0300 DEBUG 1 - same students
+2021-10-18T22:30:13.783377+0300 DEBUG 1 - same students
+2021-10-18T22:30:13.783377+0300 DEBUG 1 - same students
+2021-10-18T22:30:13.783377+0300 DEBUG 1 - same students
+2021-10-18T22:30:13.783377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.783377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.783377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.783377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.783377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.826377+0300 DEBUG Connected to database
+2021-10-18T22:30:13.826377+0300 DEBUG Connected to database
+2021-10-18T22:30:13.826377+0300 DEBUG Connected to database
+2021-10-18T22:30:13.826377+0300 DEBUG Connected to database
+2021-10-18T22:30:13.826377+0300 DEBUG Connected to database
+2021-10-18T22:30:13.829380+0300 DEBUG Student records are updated in the database
+2021-10-18T22:30:13.829380+0300 DEBUG Student records are updated in the database
+2021-10-18T22:30:13.829380+0300 DEBUG Student records are updated in the database
+2021-10-18T22:30:13.829380+0300 DEBUG Student records are updated in the database
+2021-10-18T22:30:13.829380+0300 DEBUG Student records are updated in the database
+2021-10-18T22:30:13.830377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.830377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.830377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.830377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.830377+0300 DEBUG Database connection closed
+2021-10-18T22:30:13.927585+0300 DEBUG student_register(message) function worked
+2021-10-18T22:30:13.927585+0300 DEBUG student_register(message) function worked
+2021-10-18T22:30:13.927585+0300 DEBUG student_register(message) function worked
+2021-10-18T22:30:13.927585+0300 DEBUG student_register(message) function worked
+2021-10-18T22:30:13.927585+0300 DEBUG student_register(message) function worked
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:31.719837+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-18T22:33:31.719837+0300 DEBUG 	success
+2021-10-18T22:33:47.573177+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:33:47.573177+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:33:47.573177+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:33:47.573177+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:33:47.573177+0300 DEBUG Bot sent a message to the command /start
+2021-10-18T22:33:50.597553+0300 DEBUG Validation: ok
+2021-10-18T22:33:50.597553+0300 DEBUG Validation: ok
+2021-10-18T22:33:50.597553+0300 DEBUG Validation: ok
+2021-10-18T22:33:50.597553+0300 DEBUG Validation: ok
+2021-10-18T22:33:50.597553+0300 DEBUG Validation: ok
+2021-10-18T22:33:50.599537+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:33:50.599537+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:33:50.599537+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:33:50.599537+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:33:50.599537+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:33:50.600536+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:33:50.600536+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:33:50.600536+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:33:50.600536+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:33:50.600536+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:33:50.601537+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:33:50.601537+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:33:50.601537+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:33:50.601537+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:33:50.601537+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:33:50.644542+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:50.644542+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:33:53.808175+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:33:53.808175+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:33:53.808175+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:33:53.808175+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:33:53.808175+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:33:53.808175+0300 DEBUG Student ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Student ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Student ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Student ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Student ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:33:53.808175+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:33:53.808175+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:33:53.808175+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:33:53.808175+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:33:53.808175+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:33:53.917550+0300 DEBUG Run unit tests
+2021-10-18T22:33:53.917550+0300 DEBUG Run unit tests
+2021-10-18T22:33:53.917550+0300 DEBUG Run unit tests
+2021-10-18T22:33:53.917550+0300 DEBUG Run unit tests
+2021-10-18T22:33:53.917550+0300 DEBUG Run unit tests
+2021-10-18T22:33:53.917550+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:33:53.917550+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:33:53.917550+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:33:53.917550+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:33:53.917550+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:33:54.092291+0300 DEBUG Connected to database
+2021-10-18T22:33:54.092291+0300 DEBUG Connected to database
+2021-10-18T22:33:54.092291+0300 DEBUG Connected to database
+2021-10-18T22:33:54.092291+0300 DEBUG Connected to database
+2021-10-18T22:33:54.092291+0300 DEBUG Connected to database
+2021-10-18T22:33:54.096293+0300 DEBUG 1 - same students
+2021-10-18T22:33:54.096293+0300 DEBUG 1 - same students
+2021-10-18T22:33:54.096293+0300 DEBUG 1 - same students
+2021-10-18T22:33:54.096293+0300 DEBUG 1 - same students
+2021-10-18T22:33:54.096293+0300 DEBUG 1 - same students
+2021-10-18T22:33:54.096293+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.096293+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.096293+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.096293+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.096293+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.137300+0300 DEBUG Connected to database
+2021-10-18T22:33:54.137300+0300 DEBUG Connected to database
+2021-10-18T22:33:54.137300+0300 DEBUG Connected to database
+2021-10-18T22:33:54.137300+0300 DEBUG Connected to database
+2021-10-18T22:33:54.137300+0300 DEBUG Connected to database
+2021-10-18T22:33:54.141292+0300 DEBUG Student records are updated in the database
+2021-10-18T22:33:54.141292+0300 DEBUG Student records are updated in the database
+2021-10-18T22:33:54.141292+0300 DEBUG Student records are updated in the database
+2021-10-18T22:33:54.141292+0300 DEBUG Student records are updated in the database
+2021-10-18T22:33:54.141292+0300 DEBUG Student records are updated in the database
+2021-10-18T22:33:54.141292+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.141292+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.141292+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.141292+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.141292+0300 DEBUG Database connection closed
+2021-10-18T22:33:54.266745+0300 DEBUG student_register(message) function worked
+2021-10-18T22:33:54.266745+0300 DEBUG student_register(message) function worked
+2021-10-18T22:33:54.266745+0300 DEBUG student_register(message) function worked
+2021-10-18T22:33:54.266745+0300 DEBUG student_register(message) function worked
+2021-10-18T22:33:54.266745+0300 DEBUG student_register(message) function worked
+2021-10-18T22:34:51.955953+0300 DEBUG Validation: ok
+2021-10-18T22:34:51.955953+0300 DEBUG Validation: ok
+2021-10-18T22:34:51.955953+0300 DEBUG Validation: ok
+2021-10-18T22:34:51.955953+0300 DEBUG Validation: ok
+2021-10-18T22:34:51.955953+0300 DEBUG Validation: ok
+2021-10-18T22:34:51.958950+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:34:51.958950+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:34:51.958950+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:34:51.958950+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:34:51.958950+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:34:51.959961+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:34:51.959961+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:34:51.959961+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:34:51.959961+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:34:51.959961+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:34:51.959961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:34:51.959961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:34:51.959961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:34:51.959961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:34:51.959961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:34:51.989819+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.989819+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.989819+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.989819+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.989819+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.990820+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.990820+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.990820+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.990820+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:51.990820+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:34:54.390808+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:34:54.390808+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:34:54.390808+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:34:54.390808+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:34:54.390808+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:34:54.390808+0300 DEBUG Student ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Student ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Student ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Student ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Student ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:34:54.390808+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:34:54.390808+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:34:54.390808+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:34:54.390808+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:34:54.390808+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:34:54.515809+0300 DEBUG Run unit tests
+2021-10-18T22:34:54.515809+0300 DEBUG Run unit tests
+2021-10-18T22:34:54.515809+0300 DEBUG Run unit tests
+2021-10-18T22:34:54.515809+0300 DEBUG Run unit tests
+2021-10-18T22:34:54.515809+0300 DEBUG Run unit tests
+2021-10-18T22:34:54.515809+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:34:54.515809+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:34:54.515809+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:34:54.515809+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:34:54.515809+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:34:54.769071+0300 DEBUG Connected to database
+2021-10-18T22:34:54.769071+0300 DEBUG Connected to database
+2021-10-18T22:34:54.769071+0300 DEBUG Connected to database
+2021-10-18T22:34:54.769071+0300 DEBUG Connected to database
+2021-10-18T22:34:54.769071+0300 DEBUG Connected to database
+2021-10-18T22:34:54.772057+0300 DEBUG 1 - same students
+2021-10-18T22:34:54.772057+0300 DEBUG 1 - same students
+2021-10-18T22:34:54.772057+0300 DEBUG 1 - same students
+2021-10-18T22:34:54.772057+0300 DEBUG 1 - same students
+2021-10-18T22:34:54.772057+0300 DEBUG 1 - same students
+2021-10-18T22:34:54.772057+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.772057+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.772057+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.772057+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.772057+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.925945+0300 DEBUG Connected to database
+2021-10-18T22:34:54.925945+0300 DEBUG Connected to database
+2021-10-18T22:34:54.925945+0300 DEBUG Connected to database
+2021-10-18T22:34:54.925945+0300 DEBUG Connected to database
+2021-10-18T22:34:54.925945+0300 DEBUG Connected to database
+2021-10-18T22:34:54.929093+0300 DEBUG Student records are updated in the database
+2021-10-18T22:34:54.929093+0300 DEBUG Student records are updated in the database
+2021-10-18T22:34:54.929093+0300 DEBUG Student records are updated in the database
+2021-10-18T22:34:54.929093+0300 DEBUG Student records are updated in the database
+2021-10-18T22:34:54.929093+0300 DEBUG Student records are updated in the database
+2021-10-18T22:34:54.930105+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.930105+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.930105+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.930105+0300 DEBUG Database connection closed
+2021-10-18T22:34:54.930105+0300 DEBUG Database connection closed
+2021-10-18T22:34:55.003629+0300 DEBUG student_register(message) function worked
+2021-10-18T22:34:55.003629+0300 DEBUG student_register(message) function worked
+2021-10-18T22:34:55.003629+0300 DEBUG student_register(message) function worked
+2021-10-18T22:34:55.003629+0300 DEBUG student_register(message) function worked
+2021-10-18T22:34:55.003629+0300 DEBUG student_register(message) function worked
+2021-10-18T22:52:42.888384+0300 DEBUG Validation: ok
+2021-10-18T22:52:42.888384+0300 DEBUG Validation: ok
+2021-10-18T22:52:42.888384+0300 DEBUG Validation: ok
+2021-10-18T22:52:42.888384+0300 DEBUG Validation: ok
+2021-10-18T22:52:42.888384+0300 DEBUG Validation: ok
+2021-10-18T22:52:42.890381+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:52:42.890381+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:52:42.890381+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:52:42.890381+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:52:42.890381+0300 DEBUG Program situated in folder D:\mai_bot\app
+2021-10-18T22:52:42.891383+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:52:42.891383+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:52:42.891383+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:52:42.891383+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:52:42.891383+0300 DEBUG Right now we in folder D:\mai_bot\app
+2021-10-18T22:52:42.892395+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:52:42.892395+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:52:42.892395+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:52:42.892395+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:52:42.892395+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-18T22:52:42.920379+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.920379+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.920379+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.920379+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.920379+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.921391+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.921391+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.921391+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.921391+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:42.921391+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-18T22:52:45.070746+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:52:45.070746+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:52:45.070746+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:52:45.070746+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:52:45.070746+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-18T22:52:45.070746+0300 DEBUG Student ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Student ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Student ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Student ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Student ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Teacher ref with '.git'
+2021-10-18T22:52:45.070746+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:52:45.070746+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:52:45.070746+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:52:45.070746+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:52:45.070746+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-18T22:52:45.180130+0300 DEBUG Run unit tests
+2021-10-18T22:52:45.180130+0300 DEBUG Run unit tests
+2021-10-18T22:52:45.180130+0300 DEBUG Run unit tests
+2021-10-18T22:52:45.180130+0300 DEBUG Run unit tests
+2021-10-18T22:52:45.180130+0300 DEBUG Run unit tests
+2021-10-18T22:52:45.180130+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:52:45.180130+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:52:45.180130+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:52:45.180130+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:52:45.180130+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-18T22:52:45.544213+0300 DEBUG Connected to database
+2021-10-18T22:52:45.544213+0300 DEBUG Connected to database
+2021-10-18T22:52:45.544213+0300 DEBUG Connected to database
+2021-10-18T22:52:45.544213+0300 DEBUG Connected to database
+2021-10-18T22:52:45.544213+0300 DEBUG Connected to database
+2021-10-18T22:52:45.548214+0300 DEBUG 1 - same students
+2021-10-18T22:52:45.548214+0300 DEBUG 1 - same students
+2021-10-18T22:52:45.548214+0300 DEBUG 1 - same students
+2021-10-18T22:52:45.548214+0300 DEBUG 1 - same students
+2021-10-18T22:52:45.548214+0300 DEBUG 1 - same students
+2021-10-18T22:52:45.548214+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.548214+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.548214+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.548214+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.548214+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.591214+0300 DEBUG Connected to database
+2021-10-18T22:52:45.591214+0300 DEBUG Connected to database
+2021-10-18T22:52:45.591214+0300 DEBUG Connected to database
+2021-10-18T22:52:45.591214+0300 DEBUG Connected to database
+2021-10-18T22:52:45.591214+0300 DEBUG Connected to database
+2021-10-18T22:52:45.615213+0300 DEBUG Student records are updated in the database
+2021-10-18T22:52:45.615213+0300 DEBUG Student records are updated in the database
+2021-10-18T22:52:45.615213+0300 DEBUG Student records are updated in the database
+2021-10-18T22:52:45.615213+0300 DEBUG Student records are updated in the database
+2021-10-18T22:52:45.615213+0300 DEBUG Student records are updated in the database
+2021-10-18T22:52:45.616213+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.616213+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.616213+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.616213+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.616213+0300 DEBUG Database connection closed
+2021-10-18T22:52:45.732671+0300 DEBUG student_register(message) function worked
+2021-10-18T22:52:45.732671+0300 DEBUG student_register(message) function worked
+2021-10-18T22:52:45.732671+0300 DEBUG student_register(message) function worked
+2021-10-18T22:52:45.732671+0300 DEBUG student_register(message) function worked
+2021-10-18T22:52:45.732671+0300 DEBUG student_register(message) function worked
+2021-10-23T12:35:00.915783+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.058787+0300 DEBUG 	success
+2021-10-23T12:35:01.060786+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.062785+0300 DEBUG 	success
+2021-10-23T12:35:01.062785+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.064786+0300 DEBUG 	success
+2021-10-23T12:35:01.064786+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.065787+0300 DEBUG 	success
+2021-10-23T12:35:01.066785+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.067784+0300 DEBUG 	success
+2021-10-23T12:35:01.067784+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.068784+0300 DEBUG 	success
+2021-10-23T12:35:01.068784+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-23T12:35:01.069785+0300 DEBUG 	success
+2021-10-23T12:36:29.058298+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:36:29.058298+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:36:29.058298+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:36:29.058298+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:36:29.058298+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:36:36.424961+0300 DEBUG Validation: ok
+2021-10-23T12:36:36.424961+0300 DEBUG Validation: ok
+2021-10-23T12:36:36.424961+0300 DEBUG Validation: ok
+2021-10-23T12:36:36.424961+0300 DEBUG Validation: ok
+2021-10-23T12:36:36.424961+0300 DEBUG Validation: ok
+2021-10-23T12:36:36.426952+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:36:36.426952+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:36:36.426952+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:36:36.426952+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:36:36.426952+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:36:36.511961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:36:36.511961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:36:36.511961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:36:36.511961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:36:36.511961+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:36:36.606954+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:36:36.606954+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:36:36.606954+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:36:36.606954+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:36:36.606954+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:36:36.606954+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (13224), thread 'WorkerThread7' (964):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x00000212A9008430>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:36:36.606954+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (13224), thread 'WorkerThread7' (964):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x00000212A9008430>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:36:36.606954+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (13224), thread 'WorkerThread7' (964):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x00000212A9008430>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:36:36.606954+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (13224), thread 'WorkerThread7' (964):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x00000212A9008430>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:36:36.606954+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (13224), thread 'WorkerThread7' (964):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x00000212A9008430>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:36:37.672203+0300 DEBUG Connected to database
+2021-10-23T12:36:37.672203+0300 DEBUG Connected to database
+2021-10-23T12:36:37.672203+0300 DEBUG Connected to database
+2021-10-23T12:36:37.672203+0300 DEBUG Connected to database
+2021-10-23T12:36:37.672203+0300 DEBUG Connected to database
+2021-10-23T12:36:38.866497+0300 DEBUG 1 - same students
+2021-10-23T12:36:38.866497+0300 DEBUG 1 - same students
+2021-10-23T12:36:38.866497+0300 DEBUG 1 - same students
+2021-10-23T12:36:38.866497+0300 DEBUG 1 - same students
+2021-10-23T12:36:38.866497+0300 DEBUG 1 - same students
+2021-10-23T12:36:38.867482+0300 DEBUG Database connection closed
+2021-10-23T12:36:38.867482+0300 DEBUG Database connection closed
+2021-10-23T12:36:38.867482+0300 DEBUG Database connection closed
+2021-10-23T12:36:38.867482+0300 DEBUG Database connection closed
+2021-10-23T12:36:38.867482+0300 DEBUG Database connection closed
+2021-10-23T12:36:39.395482+0300 DEBUG Connected to database
+2021-10-23T12:36:39.395482+0300 DEBUG Connected to database
+2021-10-23T12:36:39.395482+0300 DEBUG Connected to database
+2021-10-23T12:36:39.395482+0300 DEBUG Connected to database
+2021-10-23T12:36:39.395482+0300 DEBUG Connected to database
+2021-10-23T12:36:39.519179+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Волкова'
+    -> <function database_update at 0x00000212A8FDE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Волкова' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212Б...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x00000212A902FF20; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+2021-10-23T12:36:39.519179+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Волкова'
+    -> <function database_update at 0x00000212A8FDE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Волкова' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212Б...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x00000212A902FF20; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+2021-10-23T12:36:39.519179+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Волкова'
+    -> <function database_update at 0x00000212A8FDE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Волкова' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212Б...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x00000212A902FF20; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+2021-10-23T12:36:39.519179+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Волкова'
+    -> <function database_update at 0x00000212A8FDE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Волкова' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212Б...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x00000212A902FF20; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+2021-10-23T12:36:39.519179+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x00000212A691FF70>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x00000212A8448940>
+    -> <WorkerThread(WorkerThread7, started daemon 964)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x00000212A903C9A0>,)
+    -> <function student_register at 0x00000212A9008D30>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x00000212A903C9A0>
+    -> <function registration at 0x00000212A9008820>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Волкова'
+    -> <function database_update at 0x00000212A8FDE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Волкова' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212Б...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x00000212A902FF20; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Волкова' and...
+                                     ^
+
+2021-10-23T12:36:39.556712+0300 DEBUG Database connection closed
+2021-10-23T12:36:39.556712+0300 DEBUG Database connection closed
+2021-10-23T12:36:39.556712+0300 DEBUG Database connection closed
+2021-10-23T12:36:39.556712+0300 DEBUG Database connection closed
+2021-10-23T12:36:39.556712+0300 DEBUG Database connection closed
+2021-10-23T12:36:39.630690+0300 DEBUG student_register(message) function worked
+2021-10-23T12:36:39.630690+0300 DEBUG student_register(message) function worked
+2021-10-23T12:36:39.630690+0300 DEBUG student_register(message) function worked
+2021-10-23T12:36:39.630690+0300 DEBUG student_register(message) function worked
+2021-10-23T12:36:39.630690+0300 DEBUG student_register(message) function worked
+2021-10-23T12:39:56.931930+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.938930+0300 DEBUG 	success
+2021-10-23T12:39:56.938930+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.939932+0300 DEBUG 	success
+2021-10-23T12:39:56.939932+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.941931+0300 DEBUG 	success
+2021-10-23T12:39:56.941931+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.942929+0300 DEBUG 	success
+2021-10-23T12:39:56.942929+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.944931+0300 DEBUG 	success
+2021-10-23T12:39:56.944931+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.945930+0300 DEBUG 	success
+2021-10-23T12:39:56.945930+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-23T12:39:56.946929+0300 DEBUG 	success
+2021-10-23T12:40:00.067790+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:40:00.067790+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:40:00.067790+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:40:00.067790+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:40:00.067790+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:40:06.700144+0300 DEBUG Validation: ok
+2021-10-23T12:40:06.700144+0300 DEBUG Validation: ok
+2021-10-23T12:40:06.700144+0300 DEBUG Validation: ok
+2021-10-23T12:40:06.700144+0300 DEBUG Validation: ok
+2021-10-23T12:40:06.700144+0300 DEBUG Validation: ok
+2021-10-23T12:40:06.703146+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:40:06.703146+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:40:06.703146+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:40:06.703146+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:40:06.703146+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:40:06.704146+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:40:06.704146+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:40:06.704146+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:40:06.704146+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:40:06.704146+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:40:06.735144+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:40:06.735144+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:40:06.735144+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:40:06.735144+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:40:06.735144+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:40:06.736148+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (9392), thread 'WorkerThread8' (2996):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x0000020E942183A0>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:40:06.736148+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (9392), thread 'WorkerThread8' (2996):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x0000020E942183A0>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:40:06.736148+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (9392), thread 'WorkerThread8' (2996):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x0000020E942183A0>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:40:06.736148+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (9392), thread 'WorkerThread8' (2996):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x0000020E942183A0>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:40:06.736148+0300 ERROR An error has been caught in function 'registration', process 'MainProcess' (9392), thread 'WorkerThread8' (2996):
+Traceback (most recent call last):
+
+  File "D:\mai_bot\app\functions_github.py", line 29, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+> File "D:\mai_bot\app\functions_student.py", line 62, in registration
+    process_finished_with_exit_code = download_rep(git)
+                                      |            -> 'https://github.com/CrazyCucumber/test_program.git'
+                                      -> <function download_rep at 0x0000020E942183A0>
+
+  File "D:\mai_bot\app\functions_github.py", line 36, in download_rep
+    os.mkdir(new_dir)
+    |  |     -> 'D:\\mai_bot\\NewDirForProgram'
+    |  -> <built-in function mkdir>
+    -> <module 'os' from 'D:\\python39\\lib\\os.py'>
+
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'D:\\mai_bot\\NewDirForProgram'
+2021-10-23T12:40:07.037143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.037143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.037143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.037143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.037143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.041146+0300 DEBUG 1 - same students
+2021-10-23T12:40:07.041146+0300 DEBUG 1 - same students
+2021-10-23T12:40:07.041146+0300 DEBUG 1 - same students
+2021-10-23T12:40:07.041146+0300 DEBUG 1 - same students
+2021-10-23T12:40:07.041146+0300 DEBUG 1 - same students
+2021-10-23T12:40:07.042145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.042145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.042145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.042145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.042145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.090143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.090143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.090143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.090143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.090143+0300 DEBUG Connected to database
+2021-10-23T12:40:07.098143+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Румакина'
+    -> <function database_update at 0x0000020E941EE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Румакина' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x0000020E942B93C0; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+2021-10-23T12:40:07.098143+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Румакина'
+    -> <function database_update at 0x0000020E941EE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Румакина' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x0000020E942B93C0; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+2021-10-23T12:40:07.098143+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Румакина'
+    -> <function database_update at 0x0000020E941EE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Румакина' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x0000020E942B93C0; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+2021-10-23T12:40:07.098143+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Румакина'
+    -> <function database_update at 0x0000020E941EE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Румакина' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x0000020E942B93C0; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+2021-10-23T12:40:07.098143+0300 ERROR Error while working with PostgreSQL ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+Traceback (most recent call last):
+
+  File "D:\python39\lib\threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    |    -> <function Thread._bootstrap_inner at 0x0000020E91B0FF70>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+    |    -> <function WorkerThread.run at 0x0000020E93658940>
+    -> <WorkerThread(WorkerThread8, started daemon 2996)>
+
+  File "D:\python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    |     |       -> {}
+    |     -> (<telebot.types.Message object at 0x0000020E9424BFA0>,)
+    -> <function student_register at 0x0000020E94218CA0>
+
+  File "D:\mai_bot\app\main.py", line 30, in student_register
+    registration(message)
+    |            -> <telebot.types.Message object at 0x0000020E9424BFA0>
+    -> <function registration at 0x0000020E94218790>
+
+  File "D:\mai_bot\app\functions_student.py", line 72, in registration
+    database_update(fam, name, patronymic, group, task, variant, git, process_finished_with_exit_code)
+    |               |    |     |           |      |     |        |    -> None
+    |               |    |     |           |      |     |        -> 'https://github.com/CrazyCucumber/test_program.git'
+    |               |    |     |           |      |     -> '2'
+    |               |    |     |           |      -> '3'
+    |               |    |     |           -> '212Б'
+    |               |    |     -> 'Сергеевна'
+    |               |    -> 'Анастасия'
+    |               -> 'Румакина'
+    -> <function database_update at 0x0000020E941EE700>
+
+> File "D:\mai_bot\app\functions_databse.py", line 70, in database_update
+    cursor.execute(sql_update)
+    |      |       -> "UPDATE student set process = 'None'WHERE fam = 'Румакина' and name = 'Анастасия' and patronymic = 'Сергеевна' and grp = '212...
+    |      -> <method 'execute' of 'psycopg2.extensions.cursor' objects>
+    -> <cursor object at 0x0000020E942B93C0; closed: 0>
+
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "None"
+LINE 1: UPDATE student set process = 'None'WHERE fam = 'Румакина' an...
+                                     ^
+
+2021-10-23T12:40:07.104145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.104145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.104145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.104145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.104145+0300 DEBUG Database connection closed
+2021-10-23T12:40:07.184141+0300 DEBUG student_register(message) function worked
+2021-10-23T12:40:07.184141+0300 DEBUG student_register(message) function worked
+2021-10-23T12:40:07.184141+0300 DEBUG student_register(message) function worked
+2021-10-23T12:40:07.184141+0300 DEBUG student_register(message) function worked
+2021-10-23T12:40:07.184141+0300 DEBUG student_register(message) function worked
+2021-10-23T12:51:17.697216+0300 DEBUG Env 'BOT_TOKEN' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.697216+0300 DEBUG 	success
+2021-10-23T12:51:17.697216+0300 DEBUG Env 'DB_NAME' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.697216+0300 DEBUG 	success
+2021-10-23T12:51:17.697216+0300 DEBUG Env 'DB_USER' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.697216+0300 DEBUG 	success
+2021-10-23T12:51:17.697216+0300 DEBUG Env 'DB_PASSWORD' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.697216+0300 DEBUG 	success
+2021-10-23T12:51:17.697216+0300 DEBUG Env 'DB_HOST' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.712840+0300 DEBUG 	success
+2021-10-23T12:51:17.712840+0300 DEBUG Env 'DB_PORT' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.712840+0300 DEBUG 	success
+2021-10-23T12:51:17.712840+0300 DEBUG Env 'TEACHER_GIT' doesn't set. Try to load it from config.yaml
+2021-10-23T12:51:17.712840+0300 DEBUG 	success
+2021-10-23T12:51:24.571249+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:51:24.571249+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:51:24.571249+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:51:24.571249+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:51:24.571249+0300 DEBUG Bot sent a message to the command /start
+2021-10-23T12:51:33.604979+0300 DEBUG Validation: ok
+2021-10-23T12:51:33.604979+0300 DEBUG Validation: ok
+2021-10-23T12:51:33.604979+0300 DEBUG Validation: ok
+2021-10-23T12:51:33.604979+0300 DEBUG Validation: ok
+2021-10-23T12:51:33.604979+0300 DEBUG Validation: ok
+2021-10-23T12:51:33.606982+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:51:33.606982+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:51:33.606982+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:51:33.606982+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:51:33.606982+0300 DEBUG Try block begin
+Right now we in folder D:\mai_bot\app
+2021-10-23T12:51:33.607963+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:51:33.607963+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:51:33.607963+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:51:33.607963+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:51:33.607963+0300 DEBUG <class 'FileExistsError'>
+The folder D:\mai_bot\NewDirForProgram has already been created
+2021-10-23T12:51:33.731855+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Delete folder D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:33.731855+0300 DEBUG Create new folder in 'exception' block: D:\mai_bot\NewDirForProgram
+2021-10-23T12:51:39.944944+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-23T12:51:39.944944+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-23T12:51:39.944944+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-23T12:51:39.944944+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-23T12:51:39.944944+0300 DEBUG clone 2 rep:
+{git_teacher}
+{git_student}
+2021-10-23T12:51:39.944944+0300 DEBUG Student ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Student ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Student ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Student ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Student ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Teacher ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Teacher ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Teacher ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Teacher ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Teacher ref with '.git'
+2021-10-23T12:51:39.944944+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-23T12:51:39.944944+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-23T12:51:39.944944+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-23T12:51:39.944944+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-23T12:51:39.944944+0300 DEBUG Moved all files except README.md and .git into one folder
+2021-10-23T12:51:40.148079+0300 DEBUG Run unit tests
+2021-10-23T12:51:40.148079+0300 DEBUG Run unit tests
+2021-10-23T12:51:40.148079+0300 DEBUG Run unit tests
+2021-10-23T12:51:40.148079+0300 DEBUG Run unit tests
+2021-10-23T12:51:40.148079+0300 DEBUG Run unit tests
+2021-10-23T12:51:40.148079+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-23T12:51:40.148079+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-23T12:51:40.148079+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-23T12:51:40.148079+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-23T12:51:40.148079+0300 DEBUG Return in folder D:\mai_bot\app
+2021-10-23T12:51:40.353640+0300 DEBUG Connected to database
+2021-10-23T12:51:40.353640+0300 DEBUG Connected to database
+2021-10-23T12:51:40.353640+0300 DEBUG Connected to database
+2021-10-23T12:51:40.353640+0300 DEBUG Connected to database
+2021-10-23T12:51:40.353640+0300 DEBUG Connected to database
+2021-10-23T12:51:40.357617+0300 DEBUG 1 - same students
+2021-10-23T12:51:40.357617+0300 DEBUG 1 - same students
+2021-10-23T12:51:40.357617+0300 DEBUG 1 - same students
+2021-10-23T12:51:40.357617+0300 DEBUG 1 - same students
+2021-10-23T12:51:40.357617+0300 DEBUG 1 - same students
+2021-10-23T12:51:40.357617+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.357617+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.357617+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.357617+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.357617+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.400619+0300 DEBUG Connected to database
+2021-10-23T12:51:40.400619+0300 DEBUG Connected to database
+2021-10-23T12:51:40.400619+0300 DEBUG Connected to database
+2021-10-23T12:51:40.400619+0300 DEBUG Connected to database
+2021-10-23T12:51:40.400619+0300 DEBUG Connected to database
+2021-10-23T12:51:40.517655+0300 DEBUG Student records are updated in the database
+2021-10-23T12:51:40.517655+0300 DEBUG Student records are updated in the database
+2021-10-23T12:51:40.517655+0300 DEBUG Student records are updated in the database
+2021-10-23T12:51:40.517655+0300 DEBUG Student records are updated in the database
+2021-10-23T12:51:40.517655+0300 DEBUG Student records are updated in the database
+2021-10-23T12:51:40.518695+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.518695+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.518695+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.518695+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.518695+0300 DEBUG Database connection closed
+2021-10-23T12:51:40.598824+0300 DEBUG student_register(message) function worked
+2021-10-23T12:51:40.598824+0300 DEBUG student_register(message) function worked
+2021-10-23T12:51:40.598824+0300 DEBUG student_register(message) function worked
+2021-10-23T12:51:40.598824+0300 DEBUG student_register(message) function worked
+2021-10-23T12:51:40.598824+0300 DEBUG student_register(message) function worked
+2021-10-23T12:53:17.589073+0300 DEBUG Connected to database
+2021-10-23T12:53:17.589073+0300 DEBUG Connected to database
+2021-10-23T12:53:17.589073+0300 DEBUG Connected to database
+2021-10-23T12:53:17.589073+0300 DEBUG Connected to database
+2021-10-23T12:53:17.589073+0300 DEBUG Connected to database
+2021-10-23T12:53:17.591073+0300 DEBUG Database output to telegram
+2021-10-23T12:53:17.591073+0300 DEBUG Database output to telegram
+2021-10-23T12:53:17.591073+0300 DEBUG Database output to telegram
+2021-10-23T12:53:17.591073+0300 DEBUG Database output to telegram
+2021-10-23T12:53:17.591073+0300 DEBUG Database output to telegram
+2021-10-23T12:53:17.591073+0300 DEBUG Database connection closed
+2021-10-23T12:53:17.591073+0300 DEBUG Database connection closed
+2021-10-23T12:53:17.591073+0300 DEBUG Database connection closed
+2021-10-23T12:53:17.591073+0300 DEBUG Database connection closed
+2021-10-23T12:53:17.591073+0300 DEBUG Database connection closed
+2021-10-23T12:53:17.779261+0300 DEBUG database(message) function worked
+2021-10-23T12:53:17.779261+0300 DEBUG database(message) function worked
+2021-10-23T12:53:17.779261+0300 DEBUG database(message) function worked
+2021-10-23T12:53:17.779261+0300 DEBUG database(message) function worked
+2021-10-23T12:53:17.779261+0300 DEBUG database(message) function worked
